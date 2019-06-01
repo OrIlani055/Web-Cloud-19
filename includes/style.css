@@ -1,0 +1,110 @@
+body{
+    border-style: none;
+}
+header{
+    height: auto;
+    width: 500px;
+    display: block;
+}
+#logo{
+    background-image: url("../images/logo.png");
+    height: 100px;
+    margin-left: 75px;
+    background-size: contain;
+    display: block;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+#logo span{
+    float:right;
+    margin-right: 240px;
+    padding-top: 60px;
+    color: #000000;
+}
+.top_menu a{
+    text-decoration: none;
+    color: #000000;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top_menu a:hover{
+    color:#2020D0;
+}
+main{
+    width: auto;
+    display: block;
+}
+.center_pics{
+    margin-left: 30px;
+}
+.center_pics img{
+    margin-left: 20px;
+    height: 500px;
+
+}
+#info{
+    height: 100px;
+    margin-left: 90px;
+    display: block;
+}
+section{
+    width: auto;
+    display: block;
+}
+section h2{
+    width: 400px;
+    margin-left: 90px;
+}
+.lang_icon{
+    float: left;   
+    list-style-type: none;
+    margin-left: 50px;
+    margin-top:2px;
+    display: block;
+}
+.lang_write li{
+    list-style-type: none;
+    margin-top: 35px;
+    margin-left: 120px;
+}
+footer{
+    width: auto;
+    height: 200px;
+    background-color: rgb(134, 132, 132);
+    display: block;
+}
+.down_menu a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 45px;
+}
+.down_menu a:hover{
+    color: #2020D0;
+}
+.mywork{
+    border : 15px solid #F4C26B;
+    background: #F4C26B;
+}
+hr{
+    width: 950px;
+    margin-right: 230px;
+    display: block;
+}
+.links {
+    margin-left: 80px;
+    margin-top: 30px;
+    display: block;
+}
+.links a{
+    margin-left: 10px;
+    text-decoration: none;
+}
+.Line {
+    width: 1108px;
+    height: 1px;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    margin-left: 85px;
+}

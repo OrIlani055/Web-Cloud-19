@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Join us form</title>
+            <meta charset="UTF-8">    
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <link rel="stylesheet" href="./includes/style.css">
+        </head>
+
+        <body>
+              <form action="http://html5-book.co.il/teach/forms/get_form2.php " method="GET" autocomplete="on">
+                <h1>Please Join Us:</h1>
+                 <input type="text" required name="fullName" value="" placeholder="Hero Name">
+                 <input type="password" required name="pass" maxlength="8" value="" placeholder="Password"><br>
+                 <input type="email" required name="mail" value="" placeholder="E-mail">
+                 <input type="url" required name="website" value="" placeholder="Website"><br>
+                 <label>Phone:</label>
+                 <input type="tel" required name="phone" value="" placeholder="Phone">
+                 <label>Address:</label>
+                 <input type="text" required name="address" value="" placeholder="Address"><br>
+                 <label>gender:
+                    Captain America <input type="radio" name="gender" value="male">
+                    Captain Marvel <input type="radio" name="gender" value="female">
+                </label><br>
+                 <label>Super hero drink amount:</label>
+                 <input type="number" name="coffee" value="" min="0" max="10"><br>
+                 <label>Space Temp: 5</label>
+                 <input type="range"  name="temper" value="" min="5" max="45">45<br>
+                 <h3>Hero interests:</h3>
+                    Smashing:<input type="checkbox" required name="interests[]" value="Smashing">
+                    Saving innocent:<input type="checkbox" required name="interests[]" value="Saving innocent">
+                    Time travel:<input type="checkbox" required name="interests[]" value="Time travel">
+                    Killing Thanos:<input type="checkbox" required name="interests[]" value="Killing Thanos"><br>
+                 <label>age:
+                    <select name="age">
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30+">30+</option>
+                    </select>
+                 </label><br><br>
+                 <button type="submit" class="btn btn-primary">Send away</button>
+              </form>
+              <div class="wrapper">
+                <div class="hulk">
+                  <div class="head"><div class="mouth"></div></div>
+                  <div class="right-arm"></div>
+                  <div class="fist"></div>
+                  <div class="left-arm"></div>
+                  <div class="body"></div>
+                  <div class="right-leg"></div>
+                  <div class="left-leg"></div>
+                </div>
+                
+                <div class="captain">
+                  <div class="head"></div>
+                  <div class="body"><div class="star"></div></div>
+                  <div class="arms"></div>
+                  <div class="shield"><div class="star"></div></div> 
+                  <div class="hands"></div>
+                  <div class="legs"></div>
+                  <div class="boots"></div>
+                </div>
+                
+                <div class="ironman">
+                  <div class="helmet"><div class="mask"></div></div>
+                  <div class="right-arm"></div>
+                  <div class="left-arm"></div>
+                  <div class="body"><div class="power"></div></div>
+                  <div class="right-leg"></div>
+                  <div class="left-leg"></div>
+                </div>  
+              
+              <div class="thor">
+                  <div class="helmet"></div>
+                  <div class="head">
+                    <div class="beard"></div>
+                  </div>
+                  <div class="cap"></div>
+                  <div class="arm-right"></div>
+                  <div class="arm-left"></div>
+                  <div class="body"></div>
+                  <div class="hammer"></div>
+                  <div class="legs"></div>
+                  <div class="feet"></div>
+                </div> 
+              </div>
+        </body>
+    </html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+                <meta name="viewport" content="width=device-width, initial scale=1.0">
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+                <link rel="stylesheet" href="./includes/style_new_proj.css">
+                <meta charset="UTF-8">
+                <title>New Project</title>
+        </head>
+
+        <body>
+            <header>
+                <h1>שייקר - שיתופי פעולה בין סטודנטים</h1>
+            </header>
+
+            <main id="wrapper">
+                <form  name="myform" action="http://shenkar.html5-book.co.il/2018-2019/web1/dev_206/includes/start_new_proj.php" method="GET" autocomplete="on">
+                  <h1>!יש לי רעיון אדיר לפרוייקט חדש</h1>  
+                  <div class="form-group">
+                            <input type="text"  required name="projName" class="form-control" placeholder="שם הרעיון שלי">
+                          </div>
+                          <h5>?מאיזו מחלקה אתה מגיע</h5>
+                          <div class="form-group">
+                                <select multiple class="form-control"  name="myDep">
+                                  <option value="הנדסת תוכנה">הנדסת תוכנה</option>
+                                  <option value="הנדסת חשמל">הנדסת חשמל</option>
+                                  <option value="הנדסת פלסטיקה">הנדסת פלסטיקה</option>
+                                  <option value="הנדסת תעשייה וניהול">הנדסת תעשייה וניהול</option>
+                                  <option value="הנדסת כימית">הנדסה כימית</option>
+                                  <option value="עיצוב פנים">עיצוב פנים</option>
+                                  <option value="עיצוב תכשיטים">עיצוב תכשיטים</option>
+                                  <option value="עיצוב אופנה">עיצוב אופנה</option>
+                                  <option value="טקסטיל">טקסטיל</option>
+                                  <option value="עיצוב גרפי">עיצוב גרפי</option>
+                                  <option value="אומנות">אומנות</option>
+                                </select>
+                              </div>
+                              <h5>?מאיזו מחלקה אתה חושב שאתה צריך עזרה</h5>
+                          <div class="form-group">
+                              <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" name="depSearch[]" value="תוכנה">
+                                    <label class="form-check-label" >תוכנה</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox"name="depSearch[]" value="חשמל">
+                                    <label class="form-check-label" >חשמל</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" name="depSearch[]" value="פלסטיקה">
+                                    <label class="form-check-label" >פלסטיקה</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" name="depSearch[]" value="תעשייה וניהול">
+                                    <label class="form-check-label" >תעשייה וניהול</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" name="depSearch[]" value="כימית">
+                                    <label class="form-check-label" >כימית</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" name="depSearch[]" value="עיצוב פנים">
+                                    <label class="form-check-label" >פנים</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" name="depSearch[]" value="תכשיטים">
+                                    <label class="form-check-label" >תכשיטים</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" name="depSearch[]" value="אופנה">
+                                    <label class="form-check-label" >אופנה</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" name="depSearch[]" value="טקסטיל">
+                                    <label class="form-check-label" >טקסטיל</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" name="depSearch[]" value="גרפי">
+                                    <label class="form-check-label" >גרפי</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" name="depSearch[]" alue="אומנות">
+                                    <label class="form-check-label" >אומנות</label>
+                                  </div>
+                              </div>
+                                  <h5>: מידע נוסף שאתה חושב שצריך להוסיף</h5>
+                          <div class="form-group">
+                            <input type="text" name="addInfo" value="" class="form-control">
+                          </div>
+                          <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" required name="agree" >
+                                <label class="form-check-label">אין בעיה, מאשר/ת את התנאים</label>
+                              </div>
+                          <button type="submit" class="btn">Submit</button>
+                </form>
+                <aside>
+                    <img src="./images/Shaker_logo.png" alt="mypic">
+                </aside>
+            </main>
+        </body>
+
+        <script src="./includes/main.js"></script>
+    </html>
